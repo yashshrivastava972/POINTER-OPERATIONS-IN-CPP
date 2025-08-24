@@ -146,7 +146,7 @@ Step 6: Print updated values of a and b.
 
 Step 7: End.
 
-3. Algorithm practical implementation of Call by Reference (using pointers) to update salary
+3. Algorithm Practical Implementation of Call by Reference (Using Pointers) to Update Salary
    
 Step 1: Start
 
