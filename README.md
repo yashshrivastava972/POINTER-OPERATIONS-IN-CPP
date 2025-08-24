@@ -118,7 +118,7 @@ Step 6: Print values of a and b.
 
 Step 7: End.
 
-3. Algorithm for Call by Reference Swap
+2. Algorithm for Call by Reference Swap
    
 Step 1: Start
 
@@ -146,7 +146,7 @@ Step 6: Print updated values of a and b.
 
 Step 7: End.
 
-5. Algorithm practical implementation of Call by Reference (using pointers) to update salary
+3. Algorithm practical implementation of Call by Reference (using pointers) to update salary
    
 Step 1: Start
 
