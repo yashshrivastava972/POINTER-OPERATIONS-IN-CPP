@@ -1,6 +1,6 @@
-# Aim: ## To Study and Implement Pointer Operations (Call by Value and Call by Reference).
+# Aim: To Study and Implement Pointer Operations (Call by Value and Call by Reference).
 
-# Tool: ## VS CODE.
+# Tool: VS CODE.
 
 # Theory:
 
