@@ -96,7 +96,7 @@ Pointers are crucial for reference passing, dynamic memory, and data structures 
 
 # Algorithms :
 
-1. Algorithm for Call by Value Swap
+## 1. Algorithm for Call by Value Swap
    
 Step 1: Start
 
@@ -118,7 +118,7 @@ Step 6: Print values of a and b.
 
 Step 7: End.
 
-2. Algorithm for Call by Reference Swap
+## 2. Algorithm for Call by Reference Swap
    
 Step 1: Start
 
@@ -146,7 +146,7 @@ Step 6: Print updated values of a and b.
 
 Step 7: End.
 
-3. Algorithm Practical Implementation of Call by Reference (Using Pointers) to Update Salary
+## 3. Algorithm Practical Implementation of Call by Reference (Using Pointers) to Update Salary
    
 Step 1: Start
 
