@@ -1,3 +1,10 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: SALARY CALCULATION USING POINTERS IN C++ (EXPERIMENT: 10C)
+
+// CODE: 
+
 #include <iostream>
 using namespace std;
 
