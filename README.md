@@ -99,45 +99,77 @@ Pointers are crucial for reference passing, dynamic memory, and data structures 
 1. Algorithm for Call by Value Swap
    
 Step 1: Start
+
 Step 2: Declare two integers a and b (here a=27, b=67).
+
 Step 3: Call the function swapValues(a, b).
+
 Step 4: Inside the function:
+
 Copy a into x, and b into y.
+
 Use a temporary variable temp to swap x and y.
+
 Since only copies are swapped, the originals remain unchanged.
+
 Step 5: Return to main().
+
 Step 6: Print values of a and b.
+
 Step 7: End.
 
 3. Algorithm for Call by Reference Swap
    
 Step 1: Start
+
 Step 2: Declare two integers a=27, b=67.
+
 Step 3: Call the function swapValues(&a, &b) and pass addresses.
+
 Step 4: Inside swapValues:
+
 Access the values at those addresses using *x and *y.
+
 Use a temporary variable temp to swap them:
+
 temp = *x
+
 *x = *y
+
 *y = temp
+
 This directly changes the values of a and b in main().
+
 Step 5: Return to main().
+
 Step 6: Print updated values of a and b.
+
 Step 7: End.
 
 5. Algorithm practical implementation of Call by Reference (using pointers) to update salary
    
 Step 1: Start
+
 Step 2: Input employee’s salary, years of service, profit, research, and pipeline.
+
 Step 3: Initialize count = 0.
+
 Step 4: Check each condition:
+
 If years > 1, increment count.
+
 If profit > 100000, increment count.
+
 If research == 1, increment count.
+
 If pipeline == 1, increment count.
+
 Step 5: If count >= 3, call calculateSalary(&salary) to update salary by 20%.
+
 Step 6: Display whether employee is eligible or not.
+
 Step 7: Print final salary.
+
 Step 8: End.
 
 # Conclusion
