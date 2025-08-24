@@ -16,7 +16,7 @@ int *ptr = &x;   // ptr stores the address of x
 *ptr → dereferencing operator → accesses the value stored at the address.
 &x → address-of operator → gives the memory address of variable x.
 
-3. Function Calls in C++
+2. Function Calls in C++
 
 When we pass variables to a function, we can do it in two main ways:
 (a) Call by Value
@@ -78,7 +78,9 @@ int main() {
     return 0;
 }
 
+3. Key Differences
 
+   
 | Feature            | Call by Value                | Call by Reference              |
 | ------------------ | ---------------------------- | ------------------------------ |
 | What is passed?    | Copy of variable value       | Address (pointer) or reference |
@@ -95,6 +97,7 @@ Pointers are crucial for reference passing, dynamic memory, and data structures 
 # Algorithms :
 
 1. Algorithm for Call by Value Swap
+   
 Step 1: Start
 Step 2: Declare two integers a and b (here a=27, b=67).
 Step 3: Call the function swapValues(a, b).
@@ -106,7 +109,8 @@ Step 5: Return to main().
 Step 6: Print values of a and b.
 Step 7: End.
 
-2. Algorithm for Call by Reference Swap
+3. Algorithm for Call by Reference Swap
+   
 Step 1: Start
 Step 2: Declare two integers a=27, b=67.
 Step 3: Call the function swapValues(&a, &b) and pass addresses.
@@ -121,7 +125,8 @@ Step 5: Return to main().
 Step 6: Print updated values of a and b.
 Step 7: End.
 
-3. Algorithm practical implementation of Call by Reference (using pointers) to update salary
+5. Algorithm practical implementation of Call by Reference (using pointers) to update salary
+   
 Step 1: Start
 Step 2: Input employee’s salary, years of service, profit, research, and pipeline.
 Step 3: Initialize count = 0.
