@@ -5,6 +5,8 @@
 # Theory:
 <img width="957" height="343" alt="image" src="https://github.com/user-attachments/assets/94853a5a-1717-473c-a9bf-62ea70493cfd" />
 
+
+
 1. Pointer Basics in C++
 
 A pointer is a variable that stores the address of another variable.
